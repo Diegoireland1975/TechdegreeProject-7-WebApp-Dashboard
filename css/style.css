@@ -20,7 +20,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: "Recursive", sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* Header styling */
