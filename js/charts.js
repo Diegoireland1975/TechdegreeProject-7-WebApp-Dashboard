@@ -103,6 +103,7 @@ const​ dailyData =  {
     data: mobileData,
     options: mobileOptions,
   });
+  
 
 
 
