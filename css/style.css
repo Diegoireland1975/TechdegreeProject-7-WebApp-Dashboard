@@ -176,6 +176,26 @@ main {
 }
 
 /* Activities */
+.form-field,
+.form-area {
+  display: block;
+  margin-bottom: 1rem;
+  width: 90%;
+  padding: 1rem;
+}
+
+.form-area {
+  height: 5rem;
+}
+.button-primary {
+  padding: 1rem 1.5rem;
+  width: 90%;
+  border-radius: 2px;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  text-transform: uppercase;
+}
+
 .activity {
   margin-top: 2rem;
 }
