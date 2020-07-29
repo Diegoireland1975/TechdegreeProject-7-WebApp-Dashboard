@@ -270,10 +270,10 @@ main {
   }
 
   .widget-container-full {
-    width: 90vw;
+    width: 85vw;
   }
 
   .widget-container-half {
-    width: 45vw;
+    width: 40vw;
   }
 }
