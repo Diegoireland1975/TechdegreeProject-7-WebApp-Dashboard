@@ -85,11 +85,14 @@ sup {
   display: flex;
   justify-content: flex-end;
 }
+.traffic-nav li {
+  margin-left: 1rem;
+}
 
 .daily,
 .mobile {
   border: 1px solid var(--border-color);
-  padding: 2rem 0.5rem;
+  padding: 2rem 1rem;
 }
 
 .traffic,
