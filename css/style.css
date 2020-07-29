@@ -86,6 +86,12 @@ sup {
   justify-content: flex-end;
 }
 
+.daily,
+.mobile {
+  border: 1px solid var(--border-color);
+  padding: 2rem 0.5rem;
+}
+
 .traffic,
 .daily,
 .mobile {
@@ -133,7 +139,7 @@ main {
 /* ​<-- line graph charts --> */
 .widget-container-full,
 .widget-container-half {
-  width: 95vw;
+  width: 85vw;
 }
 
 /* Social Icon */
@@ -250,7 +256,9 @@ main {
   .message {
     grid-column: 1 / span 1;
   }
-
+  .mobile {
+    grid-row: 5 / span 1;
+  }
   .mobile,
   .activity,
   .settings {
