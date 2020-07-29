@@ -12,6 +12,7 @@
   --tertiary-color: rgb(230, 230, 94);
   --border-color: #4d4c72;
   --text-color: #7f7f7f;
+  --link-color: rgb(86, 204, 86);
 }
 li {
   list-style: none;
@@ -85,6 +86,16 @@ sup {
 .traffic-nav {
   display: flex;
   justify-content: flex-end;
+}
+.traffic-nav-link {
+  padding: 0.5rem 1rem;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.traffic-nav-link:hover {
+  color: var(--bg-color);
+  background: var(--link-color);
+  border-radius: 10px;
 }
 .traffic-nav li {
   margin-left: 1rem;
