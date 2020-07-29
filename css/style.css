@@ -147,9 +147,13 @@ main {
 }
 
 /* Social Icon */
+.social {
+  margin: 0 auto;
+}
 .social-container {
-  border: 1px solid var(--text-color);
   padding: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .social-image {
@@ -157,6 +161,14 @@ main {
   height: 4rem;
   background-color: var(--primary-color);
   border-radius: 50%;
+}
+
+.social-text {
+  margin-left: 0.5rem;
+}
+
+.social-text p:nth-of-type(1) {
+  color: var(--primary-color);
 }
 
 .twitter,
@@ -292,9 +304,22 @@ main {
     grid-template-columns: 50%;
   }
 
+  .social {
+    display: flex;
+  }
+
+  .social-text p:nth-of-type(2) {
+    font-size: 2rem;
+  }
+
   .traffic,
-  .social-container {
+  .social {
     grid-column: 1 / span 2;
+  }
+
+  .social-container {
+    border: 1px solid var(--text-color);
+    margin-right: 3rem;
   }
 
   .daily,
@@ -314,7 +339,7 @@ main {
   }
 
   .settings {
-    grid-row: 13 / span 1;
+    grid-row: 11 / span 1;
   }
 
   .switch-light {
