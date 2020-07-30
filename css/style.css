@@ -66,13 +66,23 @@ header {
   fill: var(--tertiary-color);
 }
 
+.dot {
+  background-color: var(--tertiary-color);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-left: 18px;
+}
+
 .app {
   font-weight: 300;
 }
+
 sup {
   font-weight: 300;
   font-size: 0.5rem;
 }
+
 .me {
   border-radius: 50%;
   width: 2.5rem;
@@ -92,6 +102,7 @@ sup {
   padding: 0.5rem 1rem;
   margin-left: 0.5rem;
 }
+
 .search {
   padding: 0.5rem 1rem;
 }
@@ -128,13 +139,15 @@ sup {
   background: var(--link-color);
   border-radius: 10px;
 }
+
 .traffic-nav li {
   margin-left: 1rem;
 }
 
 .daily,
 .mobile {
-  border: 1px solid var(--border-color);
+  border-top: 2px solid var(--light-border);
+  border-bottom: 2px solid var(--light-border);
   padding: 2rem 1rem;
 }
 
