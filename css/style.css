@@ -175,7 +175,7 @@ main {
   display: grid;
   margin: 0 auto;
 }
-/* ​<-- line graph charts --> */
+/* ​ line graph charts  */
 .widget-container-full,
 .widget-container-half {
   width: 85vw;
@@ -183,7 +183,7 @@ main {
 
 /* Social Icon */
 .social-stats {
-  padding: 0.8rem 0.4rem;
+  margin-bottom: 1rem;
   text-align: left;
 }
 
@@ -199,7 +199,7 @@ main {
   align-items: center;
   border-radius: 5px;
   background-color: var(--light-border);
-  /* border: 1px solid var(--light-border); */
+  border: 1px solid var(--text-color);
   margin-bottom: 1rem;
 }
 
@@ -218,6 +218,10 @@ main {
   color: var(--primary-color);
 }
 
+.social-text p:nth-of-type(2) {
+  color: var(--tertiary-color);
+  font-weight: 600;
+}
 .twitter,
 .facebook,
 .google {
@@ -239,6 +243,16 @@ main {
 .container-members {
   display: flex;
   margin-top: 1rem;
+  align-items: center;
+  border-bottom: 1px solid var(--light-border);
+  padding-bottom: 0.5rem;
+}
+.container-members:last-child {
+  border-bottom: none;
+}
+
+.members-text {
+  margin-right: auto;
 }
 
 .profile-image {
@@ -246,10 +260,6 @@ main {
   width: 2rem;
   height: 2rem;
   margin-right: 0.5rem;
-}
-
-.members-text {
-  justify-content: center;
 }
 
 /* Activities */
@@ -354,9 +364,6 @@ main {
     grid-template-columns: 50%;
   }
 
-  .social-stats {
-    margin-bottom: 1rem;
-  }
   .social {
     flex-direction: row;
     justify-content: space-between;
@@ -364,8 +371,6 @@ main {
 
   .social-text p:nth-of-type(2) {
     font-size: 2rem;
-    color: var(--tertiary-color);
-    font-weight: 600;
   }
 
   .traffic,
@@ -374,7 +379,6 @@ main {
   }
 
   .social-container {
-    border: 1px solid var(--text-color);
     margin-right: 8rem;
   }
 
@@ -398,11 +402,16 @@ main {
     grid-row: 11 / span 1;
   }
 
+  .container-members p:last-child {
+    margin-right: 2rem;
+  }
+
   .switch-light {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 1rem;
   }
+
   .activity {
     margin-top: 0;
   }
