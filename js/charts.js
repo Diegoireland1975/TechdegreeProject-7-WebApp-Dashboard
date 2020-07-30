@@ -99,7 +99,7 @@ let trafficData4 = {
 let trafficOptions = {
   aspectRatio: 2.5,
   animation: {
-    duration: 0,
+    duration: 2000,
   },
   scales: {
     yAxes: [
