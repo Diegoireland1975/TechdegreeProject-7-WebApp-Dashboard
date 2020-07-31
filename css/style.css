@@ -421,6 +421,7 @@ main {
   header {
     padding: 0 2rem;
   }
+
   .side-bar {
     flex-direction: column;
     justify-content: flex-start;
@@ -510,6 +511,10 @@ main {
 }
 
 @media (min-width: 1024px) {
+  header {
+    padding: 0 4rem;
+  }
+
   .traffic h3,
   .daily h3,
   .mobile h3,
