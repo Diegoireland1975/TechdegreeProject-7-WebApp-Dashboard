@@ -96,6 +96,10 @@ sup {
   align-items: center;
 }
 
+.head-line {
+  color: var(--tertiary-color);
+}
+
 .main-header-search {
   display: flex;
   justify-content: flex-end;
