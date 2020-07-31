@@ -205,6 +205,7 @@ sup {
 .message h3,
 .settings h3 {
   color: var(--tertiary-color);
+  text-transform: uppercase;
 }
 
 /* section GRID */
@@ -242,6 +243,8 @@ main {
 .social-stats {
   margin-bottom: 1rem;
   text-align: left;
+  color: var(--tertiary-color);
+  text-transform: uppercase;
 }
 
 .social {
@@ -503,9 +506,14 @@ main {
 }
 
 @media (min-width: 1024px) {
-  .traffic,
-  .daily,
-  .mobile {
-    font-size: 1.2rem;
+  .traffic h3,
+  .daily h3,
+  .mobile h3,
+  .social-stats,
+  .members h3,
+  .activity h3,
+  .message h3,
+  .settings h3 {
+    font-size: 1.3rem;
   }
 }
