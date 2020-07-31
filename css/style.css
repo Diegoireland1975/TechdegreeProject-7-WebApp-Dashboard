@@ -348,6 +348,10 @@ main {
   margin-bottom: 1rem;
 }
 
+.btn-1 {
+  margin-bottom: 1rem;
+}
+
 .btn-1 span,
 .btn-2 span {
   width: 5rem;
@@ -467,8 +471,17 @@ main {
   .widget-container-half {
     width: 40vw;
   }
+
   .btn-save,
   .btn-cancel {
     width: 45%;
+  }
+
+  .btn-1 strong,
+  .btn-2 strong {
+    margin-right: auto;
+  }
+  .settings-btn {
+    max-width: 520px;
   }
 }
