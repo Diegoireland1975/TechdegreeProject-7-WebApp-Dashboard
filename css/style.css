@@ -334,6 +334,7 @@ main {
 .form-area {
   height: 5rem;
 }
+
 .button-primary {
   padding: 0.7rem 1.5rem;
   width: 90%;
@@ -417,6 +418,9 @@ main {
       "nav main";
   }
 
+  header {
+    padding: 0 2rem;
+  }
   .side-bar {
     flex-direction: column;
     justify-content: flex-start;
