@@ -379,6 +379,9 @@ main {
   background-color: var(--primary-color);
   color: var(--bg-color);
 }
+.chevron-arrow {
+  margin-left: auto;
+}
 
 /* Timezone Save Cancel */
 .form-field {
