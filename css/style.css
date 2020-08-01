@@ -215,7 +215,7 @@ sup {
 /* section GRID */
 .container-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   grid-template-rows: auto;
   grid-template-areas:
     "header"
