@@ -379,8 +379,10 @@ main {
   background-color: var(--primary-color);
   color: var(--bg-color);
 }
+
 .chevron-arrow {
   margin-left: auto;
+  font-size: 0.5rem;
 }
 
 /* Timezone Save Cancel */
@@ -485,6 +487,10 @@ main {
     margin-right: 2rem;
   }
 
+  .chevron-arrow {
+    font-size: 1rem;
+  }
+
   .switch-light {
     display: flex;
     justify-content: space-around;
@@ -531,5 +537,9 @@ main {
   .message h3,
   .settings h3 {
     font-size: 1.3rem;
+  }
+
+  .chevron-arrow {
+    font-size: 1.5rem;
   }
 }
