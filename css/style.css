@@ -51,6 +51,10 @@ header {
   padding: 0 0.5rem;
 }
 
+header h1 {
+  font-size: 1.2rem;
+}
+
 .icon {
   margin-left: auto;
   margin-right: 0.5rem;
@@ -76,6 +80,7 @@ header {
 
 .app {
   font-weight: 300;
+  font-size: 1.2rem;
 }
 
 sup {
@@ -90,6 +95,9 @@ sup {
   margin-right: 0.5rem;
 }
 
+.user {
+  font-size: 0.9rem;
+}
 .main-header {
   display: flex;
   justify-content: flex-start;
@@ -440,7 +448,16 @@ main::-webkit-scrollbar {
   }
 
   header {
-    padding: 0 2rem;
+    padding: 0 4rem;
+  }
+
+  header h1,
+  .app {
+    font-size: 1.6rem;
+  }
+
+  .user {
+    font-size: 1.2rem;
   }
 
   .side-bar {
@@ -463,7 +480,7 @@ main::-webkit-scrollbar {
   }
 
   .widget-container-half {
-    width: 40vw;
+    width: 80vw;
   }
 
   .btn-save,
@@ -497,11 +514,22 @@ main::-webkit-scrollbar {
 
 @media (min-width: 1024px) {
   header {
-    padding: 0 4rem;
+    padding: 0 6rem;
+  }
+
+  header h1,
+  .app {
+    font-size: 1.8rem;
   }
 
   main {
     grid-template-columns: 50%;
+  }
+
+  .mobile,
+  .activity,
+  .settings {
+    grid-column: 2 / span 1;
   }
 
   .traffic,
@@ -517,6 +545,10 @@ main::-webkit-scrollbar {
     width: 90vw;
   }
 
+  .widget-container-half {
+    width: 40vw;
+  }
+
   .daily,
   .members,
   .message {
@@ -525,12 +557,6 @@ main::-webkit-scrollbar {
 
   .mobile {
     grid-row: 5 / span 1;
-  }
-
-  .mobile,
-  .activity,
-  .settings {
-    grid-column: 2 / span 1;
   }
 
   .settings {
