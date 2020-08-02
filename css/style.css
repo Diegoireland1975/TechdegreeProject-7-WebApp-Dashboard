@@ -538,6 +538,10 @@ main::-webkit-scrollbar {
     grid-column: 1 / span 2;
   }
 
+  .social-container {
+    margin-right: 8rem;
+  }
+
   .activity {
     margin-top: 0rem;
   }
