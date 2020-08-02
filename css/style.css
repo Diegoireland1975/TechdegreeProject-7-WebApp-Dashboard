@@ -372,6 +372,7 @@ main {
 
 .settings strong {
   margin-bottom: 0.5rem;
+  display: inline-block;
 }
 
 .btn-1 {
