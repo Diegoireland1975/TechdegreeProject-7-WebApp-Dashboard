@@ -238,6 +238,11 @@ main {
   display: grid;
   margin: 0 auto;
 }
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
 /* ​ line graph charts  */
 .widget-container-full,
 .widget-container-half {
@@ -447,6 +452,10 @@ main {
     margin-bottom: 1rem;
   }
 
+  main {
+    grid-template-columns: 50%;
+  }
+
   .social {
     flex-direction: row;
     justify-content: space-between;
@@ -528,10 +537,6 @@ main {
 @media (min-width: 1024px) {
   header {
     padding: 0 4rem;
-  }
-
-  main {
-    grid-template-columns: 50%;
   }
 
   .traffic h3,
