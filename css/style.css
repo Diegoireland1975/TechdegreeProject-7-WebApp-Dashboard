@@ -325,6 +325,7 @@ main::-webkit-scrollbar {
   border-bottom: 1px solid var(--light-border);
   padding-bottom: 0.5rem;
 }
+
 .container-members:last-child {
   border-bottom: none;
 }
@@ -457,7 +458,7 @@ main::-webkit-scrollbar {
   }
 
   .user {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .side-bar {
