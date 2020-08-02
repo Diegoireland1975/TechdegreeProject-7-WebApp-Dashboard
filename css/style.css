@@ -198,7 +198,7 @@ sup {
   text-transform: uppercase;
   color: var(--tertiary-color);
 }
-
+.traffic h3,
 .daily h3,
 .mobile h3 {
   margin-bottom: 2rem;
