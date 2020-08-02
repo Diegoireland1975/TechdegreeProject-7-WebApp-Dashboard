@@ -439,7 +439,7 @@ main::-webkit-scrollbar {
   }
 
   header {
-    padding: 0 2rem;
+    padding: 0 4rem;
   }
 
   .side-bar {
@@ -536,7 +536,7 @@ main::-webkit-scrollbar {
 
 @media (min-width: 1024px) {
   header {
-    padding: 0 4rem;
+    padding: 0 8rem;
   }
 
   .traffic h3,
